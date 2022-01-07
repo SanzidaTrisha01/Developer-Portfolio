@@ -1,10 +1,10 @@
 h1{
     font-family: 'Tangerine', cursive;
-    font-size: 80px;
+    font-size: 85px;
     font-weight: 900px;
 }
 h2{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 100px;
 }
 .mid{
@@ -22,13 +22,13 @@ section{
     margin-bottom: 100px;
 }
 .half-wd img{
-    width: 100%;
-    padding-top: 5%;
+    width: 80%;
+    padding-top: 2%;
 }
 .half-wd{
     width: 50%;
-    padding-left: 5%;
-    padding-right: 8%;
+    padding-left: 8%;
+    padding-right: 6%;
 }
 .button{
     text-decoration: none;
@@ -49,4 +49,9 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right center;
+}
+.bottom{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
 }
