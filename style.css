@@ -19,14 +19,16 @@ p{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-wd img{
-    width: 80%;
+    width: 100%;
     padding-top: 5%;
 }
 .half-wd{
     width: 50%;
     padding-left: 5%;
+    padding-right: 8%;
 }
 .button{
     text-decoration: none;
@@ -42,4 +44,9 @@ section{
 .top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.midium{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
 }
