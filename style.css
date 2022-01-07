@@ -1,10 +1,11 @@
 h1{
     font-family: 'Tangerine', cursive;
+    text-shadow: 10px 10px 10px steelblue;
     font-size: 85px;
     font-weight: 900px;
 }
 h2{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 100px;
 }
 .mid{
@@ -22,13 +23,14 @@ section{
     margin-bottom: 100px;
 }
 .half-wd img{
-    width: 80%;
+    width: 100%;
     padding-top: 2%;
 }
 .half-wd{
     width: 50%;
-    padding-left: 8%;
-    padding-right: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-right: 30px;
 }
 .button{
     text-decoration: none;
@@ -54,4 +56,9 @@ section{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left center;
+}
+.exp{
+    box-shadow: 10px 10px 10px 10px rgb(128, 82, 82);
+    margin-right: 5%;
+    margin-left: 5%;
 }
